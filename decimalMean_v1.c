@@ -48,7 +48,8 @@ u16 BitsConvert(u16 x,u16 n)
 		z = fmod(y,n);
 		y /= n;//会改变y的值 不可放在上一语句前面 
 		result += z;
-		//printf("z = %u\n",z);
+		//以下注释语句在调试过程使用
+		//printf("z = %u\n",z); 
 		//getchar();
 	}while(y != 0);
 	//printf("result = %u\n",result);
